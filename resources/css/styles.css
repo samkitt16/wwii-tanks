@@ -121,6 +121,42 @@ header a{
      1px  1px 0 white;
 }
 
+@media only screen and (max-width: 1200px) {
+  
+ header .desktop-links{
+    display: none;
+}
+
+header .gif{
+    display: none;
+}
+
+header .flags{
+    display:flex;
+    list-style: none;
+}
+
+header .mobile-links{
+    display: flex;
+}
+
+header .logo{
+    display: flex;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+header .flag{
+    height: 2rem;
+    width: 3.7rem;
+}
+
+header .nation{
+    padding-left: 2rem;
+}
+
+}
+
 /* Main */
 
 .foyer{
@@ -190,11 +226,10 @@ header a{
 
 /*Universal Section*/
 
-
 .tank-box{
     display: flex;
-    width: 1280px;
-    height: 540px;
+    width: 1120px;
+    height: 450px;
     margin: 4rem 4rem 4rem 4rem;
     color: white;
     background-color: rgb(53, 53, 53);
@@ -209,21 +244,10 @@ header a{
     overflow: hidden;
 }
 
-
 .image-container img{ 
     width: 100%;
     height: 100%;
     object-fit: fill;
-}
-
-
-.image-container .M43{
-   object-fit: cover;
-}
- 
-.image-containe .{
-    align-items: center;
-    justify-content: center;
 }
 
 .image-container .tank-name{
@@ -234,10 +258,6 @@ header a{
     transform: translate(-50%, 0);
     background: rgba(0, 0, 0, 0.5);
     font-size: 2rem;
-}
-
-.image-container .link-tank{
-
 }
 
 .image-container .img-descri{
@@ -266,6 +286,7 @@ header a{
     justify-content: space-evenly;
     padding-left: 1rem;
     font-size: 1.125rem;
+    overflow:auto;
 }
 
 .info-box span{
@@ -278,6 +299,9 @@ header a{
     color: white;
 }
 
+.image-container .M43{
+   object-fit: cover;
+}
 
 .CV-38{
     width: 100%;
@@ -484,10 +508,10 @@ header a{
     color: black;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/Italy/italy-italia-flag-of-italy-italian-flag-flag.jpg);
+    background-image: url(../images/Italy/Flag_of_Italy_\(1861-1946\)_crowned.svg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 15%;
+    background-position: 0% 32%;
     text-shadow:
     -1px -1px 0 white,
      1px -1px 0 white,
